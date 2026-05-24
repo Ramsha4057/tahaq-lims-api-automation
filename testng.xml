@@ -1,0 +1,7 @@
+<suite name="API Automation Smoke Suite">
+    <test name="Login Smoke Tests">
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
