@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.633 s <<< FAILURE! -- in TestSuite
-runners.TestRunner.runScenario["Login fails with invalid credentials", "Login API Smoke Flow"](2) -- Time elapsed: 0.088 s <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.52 s <<< FAILURE! -- in TestSuite
+runners.TestRunner.runScenario["Login fails with invalid credentials", "Login API Smoke Flow"](1) -- Time elapsed: 5.473 s <<< FAILURE!
 java.lang.AssertionError: expected [401] but found [400]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -13,5 +13,5 @@ java.lang.AssertionError: expected [401] but found [400]
 	at org.testng.Assert.assertEquals(Assert.java:1429)
 	at validations.LoginValidation.validateStatusCode(LoginValidation.java:10)
 	at stepdefinitions.LoginSteps.login_response_status_code_should_be(LoginSteps.java:38)
-	at ✽.login response status code should be 401(file:///C:/Users/pc/Documents/tahaq-lims-api-automation/src/test/resources/features/login.feature:15)
+	at ✽.login response status code should be 401(file:///C:/Users/pc/Documents/tahaq-lims-api-automation/src/test/resources/features/login.feature:7)
 
