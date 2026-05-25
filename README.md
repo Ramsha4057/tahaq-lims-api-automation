@@ -51,12 +51,6 @@ Login
 mvn clean test
 ```
 
----
-
-## Reporting
-
-- Console Logs
-- Cucumber HTML Report
 
 ---
 
