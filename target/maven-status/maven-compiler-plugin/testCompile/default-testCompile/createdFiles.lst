@@ -21,5 +21,6 @@ api\AuthAPI.class
 constants\EndPoints.class
 base\BaseAPI.class
 api\RoleAPI.class
+models\request\DeleteUserRequest.class
 models\request\AssignActionsToRoleRequest.class
 hooks\Hooks.class

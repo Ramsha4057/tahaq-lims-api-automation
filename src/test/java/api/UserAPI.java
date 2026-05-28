@@ -4,6 +4,7 @@ import base.BaseAPI;
 import constants.EndPoints;
 import io.restassured.response.Response;
 import models.request.CreateUserRequest;
+import models.request.DeleteUserRequest;
 import utils.ConfigReader;
 
 import static io.restassured.RestAssured.given;
@@ -68,4 +69,25 @@ public class UserAPI {
 
         return response;
     }
+   
+    public static Response deleteUserWithProfile(DeleteUserRequest body) {
+
+    Response response = given()
+            .spec(BaseAPI.getRequestSpec())
+            .body(body)
+            .when()
+            .patch(ConfigReader.getProperty("base.url")
+                    + EndPoints.DELETE_USER_WITH_PROFILE)
+            .then()
+            .extract()
+            .response();
+
+    System.out.println("\n========== DELETE USER RESPONSE ==========");
+    System.out.println("Status Code : " + response.getStatusCode());
+    response.getBody().prettyPrint();
+    System.out.println("====================================\n");
+
+    return response;
+}
+
 }

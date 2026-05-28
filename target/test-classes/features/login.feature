@@ -24,3 +24,6 @@ Feature: Login API Smoke Flow
 
     When admin fetches created user details
     Then created user should have assigned role
+
+    When admin deletes created user
+    Then user should be deleted successfully

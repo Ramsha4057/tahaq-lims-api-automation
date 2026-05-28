@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.518" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.249" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\pc\AppData\Local\Temp\surefire2048926873038572077\surefirebooter-20260525132332088_3.jar C:\Users\pc\AppData\Local\Temp\surefire2048926873038572077 2026-05-25T13-23-31_628-jvmRun1 surefire-20260525132332088_1tmp surefire_0-20260525132332088_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\pc\AppData\Local\Temp\surefire16738184557682026072\surefirebooter-20260528120921801_3.jar C:\Users\pc\AppData\Local\Temp\surefire16738184557682026072 2026-05-28T12-09-21_656-jvmRun1 surefire-20260528120921801_1tmp surefire_0-20260528120921801_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pc\Documents\tahaq-lims-api-automation\target\test-classes;C:\Users\pc\Documents\tahaq-lims-api-automation\target\classes;C:\Users\pc\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\pc\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\pc\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\pc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pc\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\pc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pc\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\pc\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pc\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\pc\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\pc\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\pc\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\pc\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\pc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\pc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\pc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\pc\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\pc\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\pc\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pc\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\pc\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\pc\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\pc\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\pc\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\pc\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\pc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pc\AppData\Local\Temp\surefire2048926873038572077\surefirebooter-20260525132332088_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pc\AppData\Local\Temp\surefire16738184557682026072\surefirebooter-20260528120921801_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Login fails with invalid credentials&quot;, &quot;Login API Smoke Flow&quot;](1)" classname="runners.TestRunner" time="5.473">
+  <testcase name="runScenario[&quot;Login fails with invalid credentials&quot;, &quot;Login API Smoke Flow&quot;](1)" classname="runners.TestRunner" time="1.427">
     <failure message="expected [401] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [401] but found [400]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -118,7 +118,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create role with actions and assign role to new user&quot;, &quot;Login API Smoke Flow&quot;](2)" classname="runners.TestRunner" time="2.477">
+  <testcase name="runScenario[&quot;Create role with actions and assign role to new user&quot;, &quot;Login API Smoke Flow&quot;](2)" classname="runners.TestRunner" time="0.966">
     <system-out><![CDATA[
 @Smoke @UserRole
 Scenario: Create role with actions and assign role to new user # src/test/resources/features/login.feature:12
@@ -138,7 +138,7 @@ Status Code : 200
         "userId": "72990663-2edc-4c10-b331-cd1c65e477e0",
         "userCode": "USR-019",
         "userType": "SuperAdmin",
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InF1YWxpdHlAaW5zcGVjdGlvbi5jb20iLCJVc2VySWQiOiI3Mjk5MDY2My0yZWRjLTRjMTAtYjMzMS1jZDFjNjVlNDc3ZTAiLCJVc2VyVHlwZSI6IlN1cGVyQWRtaW4iLCJSZXNvdXJjZXMiOiIiLCJuYmYiOjE3Nzk2OTc0MDEsImV4cCI6MTc3OTcwNDYwMSwiaWF0IjoxNzc5Njk3NDAxfQ.GOKIFD5QQgUg4r9cACF_v_QEg-euQE_LYxQSWYB3b-k",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InF1YWxpdHlAaW5zcGVjdGlvbi5jb20iLCJVc2VySWQiOiI3Mjk5MDY2My0yZWRjLTRjMTAtYjMzMS1jZDFjNjVlNDc3ZTAiLCJVc2VyVHlwZSI6IlN1cGVyQWRtaW4iLCJSZXNvdXJjZXMiOiIiLCJuYmYiOjE3Nzk5NTIxNDQsImV4cCI6MTc3OTk1OTM0NCwiaWF0IjoxNzc5OTUyMTQ0fQ.4UvOzZDjwuaFkC-LgPm99rXhVthTgL3l8BqxGQAPFTk",
         "refreshToken": "72990663-2edc-4c10-b331-cd1c65e477e0",
         "roleAndActions": [
             {
@@ -176,7 +176,7 @@ Status Code : 201
     "isRequestSuccess": true,
     "statusCode": 201,
     "message": "Success",
-    "data": "cb4c474c-5dc5-4a53-af58-2a8b76448626",
+    "data": "d9e092b5-792b-4b2b-879b-2a4c4888d25c",
     "exception": [
         
     ]
@@ -184,7 +184,7 @@ Status Code : 201
 ====================================
 
   When admin creates a new lab role                            # stepdefinitions.RoleSteps.admin_creates_a_new_lab_role()
-Created Role ID : cb4c474c-5dc5-4a53-af58-2a8b76448626
+Created Role ID : d9e092b5-792b-4b2b-879b-2a4c4888d25c
   Then role should be created successfully                     # stepdefinitions.RoleSteps.role_should_be_created_successfully()
 
 ===== ASSIGN ACTIONS TO ROLE RESPONSE =====
@@ -216,9 +216,9 @@ Status Code : 201
     "statusCode": 201,
     "message": "Success",
     "data": {
-        "userId": "uFIBIO8kga",
-        "userCode": "USR-067",
-        "userProfileId": "vgAeGv7n8s",
+        "userId": "uMUqsUR8Uy",
+        "userCode": "USR-069",
+        "userProfileId": "UxFl99e8na",
         "customRoleId": null,
         "isSuccess": false
     },
@@ -229,7 +229,7 @@ Status Code : 201
 ====================================
 
   When admin creates a new user with created role              # stepdefinitions.UserSteps.admin_creates_a_new_user_with_created_role()
-Created User ID : uFIBIO8kga
+Created User ID : uMUqsUR8Uy
   Then user should be created successfully                     # stepdefinitions.UserSteps.user_should_be_created_successfully()
 
 ========== GET USER RESPONSE ==========
@@ -242,29 +242,29 @@ Status Code : 200
     "statusCode": 200,
     "message": "Success",
     "data": {
-        "userId": "uFIBIO8kga",
-        "userCode": "USR-067",
-        "name": "Lab User 8151",
-        "email": "labuser8151@mailinator.com",
-        "userType": "LabRole_6928",
+        "userId": "uMUqsUR8Uy",
+        "userCode": "USR-069",
+        "name": "Lab User 6775",
+        "email": "labuser6775@mailinator.com",
+        "userType": "LabRole_261",
         "createdBy": "72990663-2edc-4c10-b331-cd1c65e477e0",
-        "createdDate": "2026-05-25T08:23:23.729883Z",
+        "createdDate": "2026-05-28T07:09:04.971314Z",
         "isActive": true,
         "updatedBy": "72990663-2edc-4c10-b331-cd1c65e477e0",
-        "updatedDate": "2026-05-25T08:23:23.729883Z",
-        "expiryDate": "2026-06-01T08:23:23.748307Z",
+        "updatedDate": "2026-05-28T07:09:04.971314Z",
+        "expiryDate": "2026-06-04T07:09:04.988699Z",
         "isRefreshTokenRevoable": true,
-        "userProfileId": "vgAeGv7n8s",
-        "contactNo": "03001238151",
+        "userProfileId": "UxFl99e8na",
+        "contactNo": "03001236775",
         "address": "Karachi",
         "departmentId": null,
         "departmentName": null,
         "totalRoles": 1,
         "roles": [
             {
-                "roleId": "cb4c474c-5dc5-4a53-af58-2a8b76448626",
-                "roleName": "LabRole_6928",
-                "roleCode": "ROLE-182"
+                "roleId": "d9e092b5-792b-4b2b-879b-2a4c4888d25c",
+                "roleName": "LabRole_261",
+                "roleCode": "ROLE-186"
             }
         ]
     },
@@ -276,6 +276,23 @@ Status Code : 200
 
   When admin fetches created user details                      # stepdefinitions.UserSteps.admin_fetches_created_user_details()
   Then created user should have assigned role                  # stepdefinitions.UserSteps.created_user_should_have_assigned_role()
+
+========== DELETE USER RESPONSE ==========
+Status Code : 200
+{
+    "isApiHandled": true,
+    "isRequestSuccess": true,
+    "statusCode": 200,
+    "message": "Success",
+    "data": true,
+    "exception": [
+        
+    ]
+}
+====================================
+
+  When admin deletes created user                              # stepdefinitions.UserSteps.admin_deletes_created_user()
+  Then user should be deleted successfully                     # stepdefinitions.UserSteps.user_should_be_deleted_successfully()
 ✅ PASSED: Create role with actions and assign role to new user
 ----------------------------------
 TOTAL PASSED: 1

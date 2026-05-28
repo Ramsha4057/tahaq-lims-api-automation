@@ -73,4 +73,28 @@ public class UserSteps {
                 roleId
         );
     }
+
+
+
+    @When("admin deletes created user")
+public void admin_deletes_created_user() {
+
+    String userId = TestContext.getString("userId");
+
+    response = UserAPI.deleteUserWithProfile(
+            UserPayload.deleteUserPayload(userId)
+    );
+
+    TestContext.set("deleteUserResponse", response);
+}
+
+@Then("user should be deleted successfully")
+public void user_should_be_deleted_successfully() {
+
+    Response deleteUserResponse =
+            (Response) TestContext.get("deleteUserResponse");
+
+    UserValidation.validateUserDeleted(deleteUserResponse);
+}
+
 }

@@ -1,7 +1,7 @@
 package payloads;
 
 import models.request.CreateUserRequest;
-
+import models.request.DeleteUserRequest;
 import java.util.List;
 import java.util.Random;
 
@@ -23,4 +23,8 @@ public class UserPayload {
                 null
         );
     }
+    public static DeleteUserRequest deleteUserPayload(String userId) {
+    return new DeleteUserRequest(userId);
+}
+    
 }

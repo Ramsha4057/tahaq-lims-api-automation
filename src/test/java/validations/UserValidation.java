@@ -25,4 +25,11 @@ public class UserValidation {
             "Created roleId is not assigned to user"
         );
     }
+
+
+
+    public static void validateUserDeleted(Response response) {
+    Assert.assertEquals(response.getStatusCode(), 200);
+    Assert.assertEquals(response.jsonPath().getString("message"), "Success");
+}
 }

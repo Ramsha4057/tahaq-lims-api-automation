@@ -16,5 +16,8 @@ public class EndPoints {
 
     public static final String GET_USER_BY_ID =
         "/tahaq-auth/IUserManagementFeature/GetUserWithProfile";
-    
+
+   public static final String DELETE_USER_WITH_PROFILE =
+        "/tahaq-auth/IUserManagementFeature/DeleteUserWithProfile";
+           
 }
