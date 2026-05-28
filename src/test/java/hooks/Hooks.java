@@ -1,5 +1,6 @@
 package hooks;
 
+import integrations.ClickUpAPI;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 
@@ -16,6 +17,12 @@ public class Hooks {
             failedCount++;
 
             System.out.println("❌ FAILED: " + scenario.getName());
+
+            // CLICKUP INTEGRATION
+            ClickUpAPI.createFailureTask(
+                    scenario.getName(),
+                    "Scenario execution failed."
+            );
 
         } else {
 

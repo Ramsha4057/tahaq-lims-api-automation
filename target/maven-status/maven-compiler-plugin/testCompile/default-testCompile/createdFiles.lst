@@ -8,6 +8,7 @@ validations\UserValidation.class
 stepdefinitions\RoleSteps.class
 validations\LoginValidation.class
 models\request\CreateRoleRequest.class
+integrations\ClickUpAPI.class
 utils\TokenManager.class
 api\UserAPI.class
 stepdefinitions\UserSteps.class

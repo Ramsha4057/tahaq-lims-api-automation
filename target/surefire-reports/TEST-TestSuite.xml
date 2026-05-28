@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.293" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.707" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\pc\AppData\Local\Temp\surefire11667404543587362951\surefirebooter-20260528123627926_3.jar C:\Users\pc\AppData\Local\Temp\surefire11667404543587362951 2026-05-28T12-36-27_814-jvmRun1 surefire-20260528123627926_1tmp surefire_0-20260528123627926_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\pc\AppData\Local\Temp\surefire1013666725473153841\surefirebooter-20260528232847226_3.jar C:\Users\pc\AppData\Local\Temp\surefire1013666725473153841 2026-05-28T23-28-47_101-jvmRun1 surefire-20260528232847226_1tmp surefire_0-20260528232847226_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pc\Documents\tahaq-lims-api-automation\target\test-classes;C:\Users\pc\Documents\tahaq-lims-api-automation\target\classes;C:\Users\pc\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\pc\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\pc\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\pc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pc\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\pc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pc\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\pc\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pc\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\pc\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\pc\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\pc\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\pc\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\pc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\pc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\pc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\pc\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\pc\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\pc\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pc\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\pc\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\pc\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\pc\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\pc\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\pc\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\pc\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\pc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pc\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pc\AppData\Local\Temp\surefire11667404543587362951\surefirebooter-20260528123627926_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pc\AppData\Local\Temp\surefire1013666725473153841\surefirebooter-20260528232847226_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Login fails with invalid credentials&quot;, &quot;Login API Smoke Flow&quot;](1)" classname="runners.TestRunner" time="1.494">
+  <testcase name="runScenario[&quot;Login fails with invalid credentials&quot;, &quot;Login API Smoke Flow&quot;](1)" classname="runners.TestRunner" time="3.672">
     <failure message="expected [401] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [401] but found [400]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -108,6 +108,7 @@ Status Code : 400
 
   And login response should contain error message # stepdefinitions.LoginSteps.login_response_should_contain_error_message()
 ❌ FAILED: Login fails with invalid credentials
+ClickUp task created for failed scenario: Login fails with invalid credentials
 ----------------------------------
 TOTAL PASSED: 0
 TOTAL FAILED: 1
@@ -118,7 +119,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create role with actions and assign role to new user&quot;, &quot;User Role Management Smoke Flow&quot;](2)" classname="runners.TestRunner" time="0.941">
+  <testcase name="runScenario[&quot;Create role with actions and assign role to new user&quot;, &quot;User Role Management Smoke Flow&quot;](2)" classname="runners.TestRunner" time="1.179">
     <system-out><![CDATA[
 @Smoke @UserRole
 Scenario: Create role with actions and assign role to new user # src/test/resources/features/userRoleSmoke.feature:4
@@ -138,7 +139,7 @@ Status Code : 200
         "userId": "72990663-2edc-4c10-b331-cd1c65e477e0",
         "userCode": "USR-019",
         "userType": "SuperAdmin",
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InF1YWxpdHlAaW5zcGVjdGlvbi5jb20iLCJVc2VySWQiOiI3Mjk5MDY2My0yZWRjLTRjMTAtYjMzMS1jZDFjNjVlNDc3ZTAiLCJVc2VyVHlwZSI6IlN1cGVyQWRtaW4iLCJSZXNvdXJjZXMiOiIiLCJuYmYiOjE3Nzk5NTM3NzAsImV4cCI6MTc3OTk2MDk3MCwiaWF0IjoxNzc5OTUzNzcwfQ.kwOPtSsl1Jiz48i64nXqNyw2jvt973hLtemLnAcVFT4",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InF1YWxpdHlAaW5zcGVjdGlvbi5jb20iLCJVc2VySWQiOiI3Mjk5MDY2My0yZWRjLTRjMTAtYjMzMS1jZDFjNjVlNDc3ZTAiLCJVc2VyVHlwZSI6IlN1cGVyQWRtaW4iLCJSZXNvdXJjZXMiOiIiLCJuYmYiOjE3Nzk5OTI5MTIsImV4cCI6MTc4MDAwMDExMSwiaWF0IjoxNzc5OTkyOTEyfQ.o7lZyuu1cdQtaQhuN0Te3A4mqPjLebQMd0IwpSDOqD4",
         "refreshToken": "72990663-2edc-4c10-b331-cd1c65e477e0",
         "roleAndActions": [
             {
@@ -176,7 +177,7 @@ Status Code : 201
     "isRequestSuccess": true,
     "statusCode": 201,
     "message": "Success",
-    "data": "b2905c2a-5ab2-419f-b205-c4d6a188ac6d",
+    "data": "1f178de5-1ce3-4cae-8091-97bf6a6ebd5a",
     "exception": [
         
     ]
@@ -184,7 +185,7 @@ Status Code : 201
 ====================================
 
   When admin creates a new lab role                            # stepdefinitions.RoleSteps.admin_creates_a_new_lab_role()
-Created Role ID : b2905c2a-5ab2-419f-b205-c4d6a188ac6d
+Created Role ID : 1f178de5-1ce3-4cae-8091-97bf6a6ebd5a
   Then role should be created successfully                     # stepdefinitions.RoleSteps.role_should_be_created_successfully()
 
 ===== ASSIGN ACTIONS TO ROLE RESPONSE =====
@@ -216,9 +217,9 @@ Status Code : 201
     "statusCode": 201,
     "message": "Success",
     "data": {
-        "userId": "xivWlVhG7x",
-        "userCode": "USR-070",
-        "userProfileId": "ButjUWJXeQ",
+        "userId": "gQ6QOTduQ8",
+        "userCode": "USR-072",
+        "userProfileId": "z7oeLn3XKm",
         "customRoleId": null,
         "isSuccess": false
     },
@@ -229,7 +230,7 @@ Status Code : 201
 ====================================
 
   When admin creates a new user with created role              # stepdefinitions.UserSteps.admin_creates_a_new_user_with_created_role()
-Created User ID : xivWlVhG7x
+Created User ID : gQ6QOTduQ8
   Then user should be created successfully                     # stepdefinitions.UserSteps.user_should_be_created_successfully()
 
 ========== GET USER RESPONSE ==========
@@ -242,29 +243,29 @@ Status Code : 200
     "statusCode": 200,
     "message": "Success",
     "data": {
-        "userId": "xivWlVhG7x",
-        "userCode": "USR-070",
-        "name": "Lab User 4782",
-        "email": "labuser4782@mailinator.com",
-        "userType": "LabRole_330",
+        "userId": "gQ6QOTduQ8",
+        "userCode": "USR-072",
+        "name": "Lab User 9614",
+        "email": "labuser9614@mailinator.com",
+        "userType": "LabRole_2576",
         "createdBy": "72990663-2edc-4c10-b331-cd1c65e477e0",
-        "createdDate": "2026-05-28T07:36:11.157538Z",
+        "createdDate": "2026-05-28T18:28:32.725871Z",
         "isActive": true,
         "updatedBy": "72990663-2edc-4c10-b331-cd1c65e477e0",
-        "updatedDate": "2026-05-28T07:36:11.157538Z",
-        "expiryDate": "2026-06-04T07:36:11.175373Z",
+        "updatedDate": "2026-05-28T18:28:32.725871Z",
+        "expiryDate": "2026-06-04T18:28:32.7463Z",
         "isRefreshTokenRevoable": true,
-        "userProfileId": "ButjUWJXeQ",
-        "contactNo": "03001234782",
+        "userProfileId": "z7oeLn3XKm",
+        "contactNo": "03001239614",
         "address": "Karachi",
         "departmentId": null,
         "departmentName": null,
         "totalRoles": 1,
         "roles": [
             {
-                "roleId": "b2905c2a-5ab2-419f-b205-c4d6a188ac6d",
-                "roleName": "LabRole_330",
-                "roleCode": "ROLE-188"
+                "roleId": "1f178de5-1ce3-4cae-8091-97bf6a6ebd5a",
+                "roleName": "LabRole_2576",
+                "roleCode": "ROLE-192"
             }
         ]
     },

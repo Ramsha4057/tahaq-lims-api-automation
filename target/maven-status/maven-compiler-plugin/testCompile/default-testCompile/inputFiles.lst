@@ -6,6 +6,7 @@ C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\utils\ConfigReader
 C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\models\request\LoginRequest.java
 C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\api\AuthAPI.java
 C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\models\request\DeleteUserRequest.java
+C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\integrations\ClickUpAPI.java
 C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\stepdefinitions\UserSteps.java
 C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\payloads\UserPayload.java
 C:\Users\pc\Documents\tahaq-lims-api-automation\src\test\java\runners\TestRunner.java
